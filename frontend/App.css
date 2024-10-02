@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 16px;
+  margin-top: 50px; /* Adjust for the navbar height */
+}
+
+.sidebar-open ~ .content {
+  margin-left: 250px;
+}
